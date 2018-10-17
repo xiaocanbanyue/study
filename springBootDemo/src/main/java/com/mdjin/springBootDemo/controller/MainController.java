@@ -6,10 +6,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class MainController {
-//    @RequestMapping("")
-//    public String index(){
-//        return "examples/index";
-//    }
       @RequestMapping("/")
       @ResponseBody
       String home() {
